@@ -45,19 +45,19 @@ def decodificar_palavra(palavra):
     caracter_atual = 0
     try:
       if caracter_atual < qtd_caracteres:
-        palavra_codificada += decodificar_caracter(extrair_letra(palavra,caracter_atual))
+        palavra_decodificada += decodificar_caracter(extrair_letra(palavra,caracter_atual))
         caracter_atual += 1
       if caracter_atual < qtd_caracteres:
-        palavra_codificada += decodificar_caracter(extrair_letra(palavra,caracter_atual))
+        palavra_decodificada += decodificar_caracter(extrair_letra(palavra,caracter_atual))
         caracter_atual += 1
       if caracter_atual < qtd_caracteres:
-        palavra_codificada += decodificar_caracter(extrair_letra(palavra,caracter_atual))
+        palavra_decodificada += decodificar_caracter(extrair_letra(palavra,caracter_atual))
         caracter_atual += 1
       if caracter_atual < qtd_caracteres:
-        palavra_codificada += decodificar_caracter(extrair_letra(palavra,caracter_atual))
+        palavra_decodificada += decodificar_caracter(extrair_letra(palavra,caracter_atual))
         caracter_atual += 1
       if caracter_atual < qtd_caracteres:
-        palavra_codificada += decodificar_caracter(extrair_letra(palavra,caracter_atual))
+        palavra_decodificada += decodificar_caracter(extrair_letra(palavra,caracter_atual))
     except Exception:
       print("Ocorreu um erro!")    
 
